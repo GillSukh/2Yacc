@@ -13,7 +13,7 @@ yacc -d cfg.y
 Compile second parser with prefix 'ww' instead of default 'yy', and -b option when using yacc to change file prefix:
 ```
 lex --prefix=ww cfg2.l
-yacc -b w -p w -d cfg2.y
+yacc -b w -p ww -d cfg2.y
 ```
 Create the executable:
 ```
