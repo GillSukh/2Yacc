@@ -2,6 +2,7 @@
 
 
 Example of combining two YACC parsers together. This example combines example 1 and example 2 found [here].
+![](example.png)
 
 
 ## Compiling
